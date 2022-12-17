@@ -47,7 +47,9 @@
 
     info("Done!")
     // This helps BYOND do a clean shutdown
-    //eval("")
+#ifndef OPENDREAM
+    eval("")
+#endif
 
 /world/proc/info(text)
     world.log << "\[Main] [text]"
