@@ -1,3 +1,5 @@
+/turf/blue
+
 /world
     loop_checks = FALSE
     fps = 10 // DO NOT CHANGE
@@ -45,7 +47,7 @@
 
     info("Done!")
     // This helps BYOND do a clean shutdown
-    eval("")
+    //eval("")
 
 /world/proc/info(text)
     world.log << "\[Main] [text]"

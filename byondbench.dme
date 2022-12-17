@@ -6,6 +6,7 @@
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 // BEGIN_INCLUDE
+#include "map.dmm"
 #include "code\benchmark.dm"
 #include "code\helpers.dm"
 #include "code\main.dm"
